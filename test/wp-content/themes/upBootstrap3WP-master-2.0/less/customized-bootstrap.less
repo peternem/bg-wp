@@ -1,0 +1,313 @@
+/**
+ * Overrides for Wordpresss to improve integration
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ */
+/*
+ * Overrides for Wordpresss to improve integration
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ *
+ */
+/* imported customize-bootstrap.less */
+/* here you should use whatever @font-face squirrel generated in the stylesheet.css */
+/**
+ * Overrides for Wordpresss to improve integration
+ * 
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ */
+
+
+@import "customized-variables.less";
+@import "mixins.less";
+@import "jumbotron.less";
+//@import "breadcrumbs.less";
+@import "wells.less";
+@import "responsive-utilities.less";
+
+.container.hfeed.site {
+  border: 1px solid #BABABA;
+}
+
+.home {
+  .site-content {
+    //margin: 15px auto;
+  }
+}
+.site-content {
+   margin: 15px auto;
+}
+
+.moreInfoLink {
+    margin: 20px 0;
+    overflow: auto;
+}
+
+
+.breadcrumb > li + li:before {
+    content: none;
+}
+/* Entry Content */
+.entry-header {
+  h1, h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  h3, .h3 {
+    font-style: italic;
+  }
+}
+
+.page-header {
+    margin: 40px 0 30px;
+}
+
+.site-info {
+    padding: 10px 0 40px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    padding: 58px 0 10px;
+}
+
+.site-description {
+    font: italic 300 24px "Source Sans Pro",Helvetica,sans-serif;
+    margin: 0;
+}
+
+.site-header {
+    position: relative;
+}
+
+.site-header .home-link {
+    color: #141412;
+    display: block;
+    margin: 0 auto;
+    max-width: 1080px;
+    min-height: 230px;
+    padding: 0 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+/* Footer */
+.container.site-footer {
+    border: 1px solid #BABABA;
+    margin-top: 20px;
+}
+
+/**************************
+ * WP Entry Meta Class Elements
+ ****************************/
+.entry-meta {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.edit-link {
+    margin: 0 5px;
+}
+
+/**************************
+ * WP Entry Content Class
+ ****************************/
+
+.entry-content.row {
+  padding-bottom: 50px;
+}
+/**************************
+ * WP Comment Section Elements
+ ****************************/
+.comment-metadata {
+    font-size: 14px;
+}
+
+/**************************
+* WP - ADMIN Bar Fix
+ ********************************/
+// .admin-bar .navbar-fixed-top {
+    // top: 32px;
+    // border-top:1px solid #000000;
+// }
+
+/**************************
+* ADMIN EDIT LINK 
+ ********************************/
+.comment-edit-link, .comment-edit-link:hover, .comment-edit-link:focus {
+    color: #FFFFFF;
+}
+
+.post-edit-link, .post-edit-link:hover, .post-edit-link:focus {
+    color: #FFFFFF;
+}
+.edit-link {
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+.edit-link:hover, .edit-link:focus {
+    background-color: #47A447;
+    border-color: #398439;
+    color: #FFFFFF;
+}
+/***********************
+ * Social Icons 
+ **********************/
+
+.socialNet, .emailNet {
+    height: auto;
+    list-style: none outside none;
+    margin-left: 0;
+    margin-top: 10px;
+    overflow: auto;
+    padding: 0;
+}
+
+.socialNet li {
+    float: left;
+    margin: 0 0.25em 0 0;
+}
+
+
+
+
+
+
+/* Images */
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/**
+ * Widgets
+ */ 
+ 
+.wp_widget_plugin_text, .wp_widget_plugin_textarea{
+  margin:0;
+}
+.widget ul li {
+  list-style: none;
+}
+
+.widget-text.wp_widget_plugin_box header {
+  overflow: auto;
+}
+
+.widget-text.wp_widget_plugin_box > img {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.widget-text.wp_widget_plugin_box {
+    min-height: 170px;
+}
+
+.widget-text.wp_widget_plugin_box > footer {
+    bottom: 0;
+    position: absolute;
+}
+
+/**
+ * Content wrapping
+ */ 
+ .gradient (@origin: top, @start: #303030, @stop: #000000) {
+    background-color: @start;
+    background-image: -webkit-linear-gradient(@origin, @start, @stop);
+    background-image: -moz-linear-gradient(@origin, @start, @stop);
+    background-image: -o-linear-gradient(@origin, @start, @stop);
+    background-image: -ms-linear-gradient(@origin, @start, @stop);
+    background-image: linear-gradient(@origin, @start, @stop);
+}
+
+.jumbotron.site-tabs .container > section {
+    overflow: auto;
+}
+
+.jumbotron {
+  &.bgwp_home {
+    min-height: 500px;
+    background: url('http://bgwp.net/test/wp-content/themes/upBootstrap3WP-master-2.0/img/bean_building.jpg') no-repeat 0 0;
+  }
+  .wp_content {
+    color: #fff;
+    width: 45%;
+    padding: 32px;
+    min-height: 500px;
+    //background-color: #FFFFFF;
+    background:rgb(52,75,67);
+    background: transparent\9;
+    background:rgba(52,75,67,0.75);
+    //filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4cFF0000,endColorstr=#4cFF0000);
+    zoom: 1;
+  }
+}
+
+
+
+
+// .popup {
+    // display: block;
+    // float: right;
+    // overflow: auto;
+    // margin-left: 20px;
+// }
+// 
+// .row .col-md-12 p .btn {
+    // margin: 30px 0 20px;
+// }
+// 
+// .revise {
+  // margin: 0 0 0 15px;
+  // color: #000;
+// }
+// 
+// .byline {
+  // margin: 0 0 0 15px;
+// }
+// 
+// .post-navigation {
+  // margin-bottom: 20px;
+// }
+// 
+// .branding.sub.col-md-5 {
+    // text-align: center;
+// }
+// 
+// .site-tabs .col-md-5, .entry-meta .col-md-5 {
+  // text-align:center;
+// }
+// .comments-link {
+  // margin: 0;
+// }
+// 
+// .nav-previous, .nav-next {
+    // font-size: 18px;
+// }
+// 
+// .nav-next {
+    // text-align: right;
+// }
+// .tagcloud, .widget_recent_entries li, .widget_categories li, .widget_archive select {
+  // font-size: 14px;
+// }
+@media (min-width: 1024px) {
+  .nav.navbar-nav {
+    float: right;
+  }
+}

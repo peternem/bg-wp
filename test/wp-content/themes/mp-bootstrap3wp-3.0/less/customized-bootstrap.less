@@ -1,0 +1,35 @@
+/**
+ * Overrides for Wordpresss to improve integration
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ */
+/*
+ * Overrides for Wordpresss to improve integration
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ *
+ */
+/* imported customize-bootstrap.less */
+/* here you should use whatever @font-face squirrel generated in the stylesheet.css */
+/**
+ * Overrides for Wordpresss to improve integration
+ * 
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ */
+@import "customized-variables.less";
+@import "mixins.less";
+@import "jumbotron.less";
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+/**************************
+* WP - ADMIN Bar Fix
+ ********************************/
+.admin-bar .navbar-fixed-top {
+    top: 32px;
+    border-top:1px solid #000000;
+}

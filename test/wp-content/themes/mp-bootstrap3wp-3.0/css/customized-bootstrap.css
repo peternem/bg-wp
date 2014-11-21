@@ -1,0 +1,77 @@
+/**
+ * Overrides for Wordpresss to improve integration
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ */
+/*
+ * Overrides for Wordpresss to improve integration
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ *
+ */
+/* imported customize-bootstrap.less */
+/* here you should use whatever @font-face squirrel generated in the stylesheet.css */
+/**
+ * Overrides for Wordpresss to improve integration
+ * 
+ * @author Matthias Thom | http://upplex.de
+ * @package upBootWP 0.1
+ */
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  line-height: 1;
+  color: inherit;
+}
+.jumbotron p {
+  line-height: 1.4;
+}
+.container .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/**************************
+* WP - ADMIN Bar Fix
+ ********************************/
+.admin-bar .navbar-fixed-top {
+  top: 32px;
+  border-top: 1px solid #000000;
+}

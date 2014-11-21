@@ -1,0 +1,85 @@
+/* Template-specific stuff
+ *
+ * Customizations just for the template—these are not necessary for anything
+ * with disabling the responsiveness.
+ */
+
+
+/* Finesse the page header spacing */
+.page-header {
+	margin-bottom: 30px;
+}
+.page-header .lead {
+	margin-bottom: 10px;
+}
+
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+    max-width: none !important;
+    width: 970px;
+}
+
+.navbar-brand {
+	font-size: 12px;
+	padding: 0.50em;
+}
+
+/* Demonstrate the grids */
+.col-xs-4 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	background-color: rgba(86,61,124,.15);
+	border: 1px solid rgba(86,61,124,.2);
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+/* Undo custom dropdowns */
+.navbar .open .dropdown-menu {
+	position: absolute;
+	top:29px;
+	float: left;
+	background-color: #B2B2B2;
+	border: 1px solid #B2B2B2;
+	/*border: 1px solid rgba(0, 0, 0, 0.15);*/
+	border-width: 0 1px 1px;
+	border-radius: 0;
+	/*-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);*/
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.navbar .open .dropdown-menu > li > a {
+	color: #333;
+	font-size:0.85em;
+	padding: 0.75em 1.5em;
+}
+.navbar .open .dropdown-menu  .dropdown-header {
+	color:#fff;
+}
+.navbar .open .dropdown-menu > li > a:hover, .navbar .open .dropdown-menu > li > a:focus, .navbar .open .dropdown-menu > .active > a, .navbar .open .dropdown-menu > .active > a:hover, .navbar .open .dropdown-menu > .active > a:focus {
+	color: #fff !important;
+	background-color: #ccc !important;
+}
+.navbar .open .dropdown-menu > .disabled > a, .navbar .open .dropdown-menu > .disabled > a:hover, .navbar .open .dropdown-menu > .disabled > a:focus {
+	color: #999 !important;
+	background-color: transparent !important;
+}

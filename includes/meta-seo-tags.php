@@ -1,0 +1,5 @@
+		<meta name="description" content="Bean Gentry Wheeler & Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
+		<meta name="keywords" content="bgwp, Olympia law firm, Administrative Law, Alternative Dispute Resolution, Appellate, Trial And Legal Ethics Consulting, Construction, debtor/Creditor, Employment, Environmental Law, Administration/Probate, Health Care Insurance Coverage, Litigation, Municipal Law,
+		Personal Injury And Wrongful Deathlaw firm, business law, corporate law, lawyer, attorney, law, legal, business, corporations, individuals, financial, franchise, real estate, litigation, dispute, tax, work place, injury, estate planning, environmental, banking, property, intellectual property, patent, condemnation,
+		eminent domain, land use, trademark, clean tech, green tech, food, beverage, labor, employment, manufacturing, Olympia, Seattle, Washington, Bend, Oregon">
+		<meta name="author" content="Bean Gentry Wheeler & Peternell, PLLC"/>

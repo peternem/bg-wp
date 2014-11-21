@@ -1,0 +1,73 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+.jumbotron {
+  padding: @jumbotron-padding;
+  margin-bottom: @jumbotron-padding;
+  font-size: @jumbotron-font-size;
+  font-weight: 200;
+  line-height: (@line-height-base * 1.5);
+  color: @jumbotron-color;
+  background: none;
+  &.main-content {
+    padding-bottom: 0;
+  }
+  &.site-tabs {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .page-header {
+      border-bottom: none;
+      margin: 0 0 20px;
+      padding-bottom: 0
+      overflow: auto;
+  }
+  h1 {
+    line-height: 1;
+    color: @jumbotron-heading-color;
+    font-weight: bold;
+    
+  }
+  h2 {
+    font-size: 18.9px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  p {
+    line-height: 1.4;
+    font-size: (@jumbotron-font-size *0.58) 
+  }
+  
+  .container & {
+    background-color: #ffffff;
+    border-radius: 0; // @border-radius-large Only round corners at higher resolutions if contained in a container
+  }
+  .container &.widgets  {
+    background-color: #F2F2F2;
+    overflow: auto;
+    border: 1px solid #BABABA
+  }
+
+  .container {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  @media screen and (min-width: @screen-sm-min) {
+    padding-top:    (@jumbotron-padding * 1.6);
+    padding-bottom: (@jumbotron-padding * 1.6);
+
+    .container & {
+      padding-left:  (@jumbotron-padding * 2);
+      padding-right: (@jumbotron-padding * 2);
+    }
+
+    h1 {
+      font-size: (@font-size-base * 1.75);
+    }
+  }
+}
