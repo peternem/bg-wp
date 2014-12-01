@@ -111,22 +111,24 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
                                 <li><span class="office">Olympia Offices:</span></li>
                                 <li>910 Lakeridge Way SW</li>
                                 <li>Olympia, Washington 98502</li>
-                                <li>Tel: (360)357-2852</li>
-                                <li>Fax: (360) 786-6943</li>
+                                <li>Tel: 360-357-2852</li>
+                                <li>Fax: 360-786-6943</li>
+                                <li>Directions: <a href="https://www.google.com/maps/dir/''/910+Lakeridge+Way+SW,+Olympia,+WA+98502/" target="_blank">Map View</a></li>
                             </ul>
                             <ul>
                                 <li><span class="office">Seattle Offices:</span></li>
                                 <li>2211 Elliott Avenue, Suite 200 </li>
                                 <li>Seattle, Washington  98121</li>
-                                <li>Tel: (206)455-2887 </li>
-                                <li>Parking: <a href="/pdf/Parking Information and Rates.pdf" target="_blank">Information and rates</a></li>
+                                <li>Tel: 206-455-2887</li>
+                                <li>Parking: <a href="/pdf/Parking Information and Rates.pdf" target="_blank">Information and Rates</a></li>
                                 <li>Directions: <a href="pdf/BGWP WTC Directions.pdf" target="_blank">Download</a></li>
                             </ul>
                             <ul>
                                 <li><span class="office">Bend Offices:</span></li>
                                 <li>705 NW Charbonneau Street, Suite 205</li>
                                 <li>Bend, OR 97701</li>
-                                <li>Tel: (541)593-0322</li>
+                                <li>Tel: 541-593-0322</li>
+                                <li>Directions: <a href="https://www.google.com/maps/place/750+NW+Charbonneau+St,+Bend,+OR+97701/@44.057778,-121.358102,18z/" target="_blank">Map View</a></li>
                             </ul>
                         </div></div>
         </div>
