@@ -119,8 +119,8 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
                                 <li>2211 Elliott Avenue, Suite 200 </li>
                                 <li>Seattle, Washington  98121</li>
                                 <li>Tel: (206)455-2887 </li>
-                                <li>Parking: <a href="/bgwp.net/pdf/Parking Information and Rates.pdf" target="_blank">Information and rates</a></li>
-                                <li>Directions: <a href="/bgwp.net/pdf/BGWP WTC Directions.pdf" target="_blank">Download</a></li>
+                                <li>Parking: <a href="/pdf/Parking Information and Rates.pdf" target="_blank">Information and rates</a></li>
+                                <li>Directions: <a href="pdf/BGWP WTC Directions.pdf" target="_blank">Download</a></li>
                             </ul>
                             <ul>
                                 <li><span class="office">Bend Offices:</span></li>
