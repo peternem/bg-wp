@@ -67,18 +67,18 @@ $navFlag = 'lawyer';
 					<section>
 						<h4 class="practiceType">Business, Employment, Real Estate, Health Care, and Administrative law.</h4>
 						<p>
-							Stephen Manning’s current practice emphasizes litigation and client advice in the areas of business, employment, real estate, health care, and administrative law.  As a small business owner himself, Stephen knows the value of obtaining timely practical advice so that his clients can have the timely answers they need.  In litigation matters, he has achieved good results for clients in trials, mediations, arbitrations, and administrative hearings.  Whatever your case may involve, Stephen’s focus is on providing you effective representation that produces positive results for you.
+							Stephen Manning's current practice emphasizes litigation and client advice in the areas of business, employment, real estate, health care, and administrative law.  As a small business owner himself, Stephen knows the value of obtaining timely practical advice so that his clients can have the timely answers they need.  In litigation matters, he has achieved good results for clients in trials, mediations, arbitrations, and administrative hearings.  Whatever your case may involve, Stephen’s focus is on providing you effective representation that produces positive results for you.
 						</p>
 						<div class="moreInfoLink">
 							<!-- <a href="pdf/stephen_manning_072713.pdf" target="_blank">More Information  &raquo;</a> -->
 						<!-- Button trigger modal -->
 						<div class="btn-group">
-						<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+						<a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
 							Resume &raquo;
-						</button>
-						<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-							Articles &raquo;
-						</button>
+						</a>
+						<a class="btn btn-primary btn-sm" href="http://olympiaattorney.blogspot.com/" target="_blank">
+							Blog
+						</a>
 						</div>
 						
 						</div>
@@ -98,32 +98,7 @@ $navFlag = 'lawyer';
 										<h4 class="modal-title" id="myModalLabel">Stephen Manning Articles and Resume</h4>
 									</div>
 									<div class="modal-body">
-										<h3>Articles by Stephen Manning</h3>
-										<ul class="installDocs">
-											<?php
-											$dirName = "stephen-manning";
-											$dir = "./assets/docs/$dirName/article";
-											if (is_dir($dir)) {
-											    if ($dh = opendir($dir)) {
-												    while (($file = readdir($dh)) !== false) {
-												        if ($file != "." && $file != ".." && $file != ".htaccess") {
-												            $name = basename($file, '.pdf'); // Removes file extension  
-															?>
-															<li class="boxListItem">
-																<a href="<?php echo $dir."/".$file; ?>" target="_blank">
-																	<img class="box" alt='pdf' src="assets/docs/<?php echo $dirName ?>/thumbnail/<?php echo $name ?>.jpg"/>
-																	<a href="<?php echo $dir."/".$file; ?>" target="_blank"><?php echo $file ?></a>
-																</a>
-															</li>
-																	
-															<?php
-												        }
-												    }
-											    	closedir($dh);
-											    }
-											}
-											?>
-										</ul>
+
 										<h3>Resume</h3>
 										<ul class="installDocs">
 											<?php

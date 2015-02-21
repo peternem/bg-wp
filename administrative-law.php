@@ -66,8 +66,7 @@ $navFlag = 'practice-type';
                                 </ul></li>
                             <li>Defense in actions / complaints / investigations brought by Health Care Authority
                                 <ul>
-                                    <li>Audits</li>
-                                    <li>Overpayments</li>
+                                    <li>Audits and Overpayments</li>
                                 </ul></li>
                             <li>Defense in actions / complaints / investigations brought by Department of Licensing</li>
                             <li>Defense in actions / complaints / investigations brought by Department of Social and Health Services
@@ -88,6 +87,12 @@ $navFlag = 'practice-type';
                             <li>Employment Security Department Proceedings</li>
                             <li>Executive Ethics Board Complaints / Investigations</li>
                         </ul>
+					<p>Want to learn more.  Check out our Administrative Law / Employment Law Blog.</p>
+                    <div class="btn-group">
+						<a class="btn btn-primary btn-sm" href="http://olympiaattorney.blogspot.com/" target="_blank">
+						Olympia Attorney Blog
+						</a>
+						</div>
                     </section>
                 </article>
             </div>

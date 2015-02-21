@@ -70,6 +70,12 @@ $navFlag = 'practice-type';
 							<li>Wrongful discharge and discrimination</li>
                         </ul>
                     </section>
+                    <p>Want to learn more.  Check out our Administrative Law / Employment Law Blog.</p>
+                    <div class="btn-group">
+						<a class="btn btn-primary btn-sm" href="http://olympiaattorney.blogspot.com/" target="_blank">
+						Olympia Attorney Blog
+						</a>
+						</div>
                 </article>
             </div>
         </div>
