@@ -87,10 +87,10 @@ $navFlag = 'practice-type';
                             <li>Employment Security Department Proceedings</li>
                             <li>Executive Ethics Board Complaints / Investigations</li>
                         </ul>
-					<p>Want to learn more.  Check out our Administrative Law / Employment Law Blog.</p>
+					<p>Want to learn more.  Check out our Administrative Law Blog.</p>
                     <div class="btn-group">
-						<a class="btn btn-primary btn-sm" href="http://olympiaattorney.blogspot.com/" target="_blank">
-						Olympia Attorney Blog
+						<a class="btn btn-primary btn-sm" href="http://www.washingtonadministrativehearings.com/" target="_blank">
+						 Administrative Law Blog
 						</a>
 						</div>
                     </section>
