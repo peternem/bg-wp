@@ -9,10 +9,10 @@ $navFlag = 'lawyer';
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>Bean Gentry Wheeler &amp; Peternell PLLC - Stephen Manning</title>
-		<meta name="description" content="Bean Gentry Wheeler & Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
+		<title>Bean, Gentry, Wheeler &amp; Peternell, PLLC - Stephen Manning</title>
+		<meta name="description" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
 		<meta name="keywords" content="Washington Law, Washington Lawyers, Washington Attorneys, Northwest Law, Northwest Lawyers, Northwest attorneys, business law, property law, Olympia"/>
-		<meta name="author" content="Bean Gentry Wheeler & Peternell, PLLC"/>
+		<meta name="author" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC"/>
 		<link href="css/bgwp-style-new.css" rel="stylesheet" type="text/css" />
 		<script src="js/jquery-1.4.2.js" type="text/javascript" ></script>
 		<script src="js/jquery-rollover.js" type="text/javascript" ></script>

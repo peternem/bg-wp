@@ -14,7 +14,7 @@ $navFlag = 'practice-type';
 
         <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-        <title>Bean Gentry Wheeler &amp; Peternell PLLC - Administrative Law</title>
+        <title>Bean, Gentry, Wheeler &amp; Peternell, PLLC - Administrative Law</title>
 
         <!-- Bootstrap core CSS -->
 

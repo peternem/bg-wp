@@ -1,28 +1,25 @@
 <?php
-
 // Lawyer flag for main nav menu
-
 $navFlag = 'lawyer';
 ?>
-
 <?php
 function curPageName() {
- return substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+	return substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
 }
 
 $urlString = substr(curPageName(), 0, -4);
-$stringUrl = ucwords(str_replace("-", " ",$urlString));
+$stringUrl = ucwords(str_replace("-", " ", $urlString));
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Bean Gentry Wheeler & Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
+        <meta name="description" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
         <meta name="keywords" content="Washington Law, Washington Lawyers, Washington Attorneys, Northwest Law, Northwest Lawyers, Northwest attorneys, business law, property law, Olympia"/>
-        <meta name="author" content="Bean Gentry Wheeler & Peternell, PLLC"/>
+        <meta name="author" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC"/>
 
- <!-- Note there is no responsive meta tag here -->
+        <!-- Note there is no responsive meta tag here -->
 
         <link rel="shortcut icon" href="assets/ico/favicon.png">
 
@@ -43,9 +40,13 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
         <script src="assets/js/respond.min.js"></script>
         <![endif]-->
 
- 		<?php include 'includes/sitewide-javascript-files.php'; ?>
+ 		<?php
+	include 'includes/sitewide-javascript-files.php';
+ ?>
 
-		<?php include_once("includes/googleAnalytics.php"); ?>
+		<?php
+	include_once ("includes/googleAnalytics.php");
+ ?>
     </head>
 
     <body>
@@ -55,7 +56,8 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 				include 'includes/sitewide-mainNavMenu1.php';
                 ?>
             </div>
-            <div id="midPanel" class="mid-panel profile jr">
+
+            <div class="mid-panel profile cd">
                 <img src="assets/img/bgwp_logo_new.gif" alt="Bean | Gentry | Wheeler | Peternell PLLC" class="bgwpLogo" title="Bean | Gentry | Wheeler | Peternell PLLC" />
                 <?php
 				include 'includes/sitewide-attorneys-subnav-menu.php';
@@ -66,15 +68,15 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
                             <h1><?php echo $stringUrl; ?></h1>
                             <h2 class="attorneyAtLaw">Attorney at Law</h2>
                             <div class="phoneEmail">
-                                <a href="mailto:jrandall@bgwp.net">jrandall@bgwp.net</a>
+                                <a href="mailto:cduryea@bgwp.net">cduryea@bgwp.net</a>
                             </div>
                         </header>
                     </section>
                     <section>
-                        <!-- <h4 class="practiceType">Real Estate, Banking, Health Care, &amp;
-                        <br>
-                        Business Law</h4> -->
-                        <p>Jim Randall has been practicing business, real estate and creditor-debtor law in the Olympia area since 2001.  About half of Jim’s practice is devoted to litigation and the remainder to transactional work and counseling his clients. “Since my first year of law school I knew I wanted to practice real estate law and advise local businesses.” </p>
+                        <h4 class="practiceType">Business Law & Finance, Municipal Law & Finance, Regulatory & Administrative Law</h4>
+                        <p>Cheryl has been practicing law in Olympia since 1978 and focuses her practice in the areas of business, state regulatory matters, securities and municipal law, including 
+                        bond work.  Cheryl works with businesses and local governments on regulatory and licensing problems and helps them sort through financing and management issues.  As a 
+                        former business owner and government regulator, Cheryl understands the importance of practical and cost effective solutions.</p>
 						<div class="moreInfoLink">
 							<!-- Button trigger modal -->
 							<div class="btn-group">
@@ -86,11 +88,11 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 								</button> -->
 							</div>
 						</div>
-
                     </section>
                 </article>
+
             </div>
-            <div class="right-panel jr"></div>
+            <div id="rightPanel" class="right-panel cd"></div>
         </div>
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -106,7 +108,7 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 						<!-- <h3>Articles:</h3> -->
 						<ul class="installDocs">
 							<?php
-							$dirName = "james-randall";
+							$dirName = "cheryl-l-duryea";
 							$dir = "./assets/docs/$dirName/article";
 							if (is_dir($dir)) {
 							    if ($dh = opendir($dir)) {
@@ -115,24 +117,23 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 								            $name = basename($file, '.pdf'); // Removes file extension  
 											?>
 											<li class="boxListItem">
-												<a href="<?php echo $dir."/".$file; ?>" target="_blank">
+												<a href="<?php echo $dir . "/" . $file; ?>" target="_blank">
 													<img class="box" alt='pdf' src="assets/docs/<?php echo $dirName ?>/thumbnail/<?php echo $name ?>.jpg"/>
-													<a href="<?php echo $dir."/".$file; ?>" target="_blank"><?php echo $file ?></a>
+													<a href="<?php echo $dir . "/" . $file; ?>" target="_blank"><?php echo $file ?></a>
 												</a>
 											</li>
 													
-											<?php
-								        }
-								    }
-							    	closedir($dh);
-							    }
-							}
+											<?php }
+											}
+											closedir($dh);
+											}
+											}
 							?>
 						</ul>
 						<h3>Resume:</h3>
 						<ul class="installDocs">
 							<?php
-							$dirName = "james-randall";
+							$dirName = "cheryl-l-duryea";
 							$dir = "./assets/docs/$dirName/resume";
 							if (is_dir($dir)) {
 							    if ($dh = opendir($dir)) {
@@ -141,18 +142,18 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 								            $name = basename($file, '.pdf'); // Removes file extension  
 											?>
 											<li class="boxListItem">
-												<a href="<?php echo $dir."/".$file; ?>" target="_blank">
+												<a href="<?php echo $dir . "/" . $file; ?>" target="_blank">
 													<img class="box" alt='pdf' src="assets/docs/<?php echo $dirName ?>/thumbnail/<?php echo $name ?>.jpg"/>
-													<a href="<?php echo $dir."/".$file; ?>" target="_blank"><?php echo $file ?></a>
+													<a href="<?php echo $dir . "/" . $file; ?>" target="_blank"><?php echo $file ?></a>
 												</a>
 											</li>
 													
 											<?php
-								        }
-								    }
-							    	closedir($dh);
-							    }
-							}
+											}
+											}
+											closedir($dh);
+											}
+											}
 							?>
 						</ul>
 					</div>

@@ -7,7 +7,7 @@
 
 		<link rel="shortcut icon" href="assets/ico/favicon.png">
 
-		<title>Bean Gentry Wheeler &amp; Peternell PLLC</title>
+		<title>Bean, Gentry, Wheeler &amp; Peternell, PLLC</title>
 
 		<!-- Bootstrap core CSS -->
 
@@ -45,7 +45,7 @@
 						<img src="assets/img/bgwp_logo_new.gif" alt="Bean | Gentry | Wheeler | Peternell PLLC" class="bgwpLogo" title="Bean | Gentry | Wheeler | Peternell PLLC" />
 						<header>
 							<h1>Business law advisors to Pacific Northwest businesses, professionals, and property owners since 1968.</h1>
-							<h2>BGWP's core practice areas include business, construction, estate planning, environmental, health care, litigation and real estate law types. For convenience, we have office locations in Olympia and Seattle Washington and Bend, Oregon.</h2>
+							<h2>Bean, Gentry, Wheeler &amp; Peternell, PLLC core practice areas include business, construction, estate planning, environmental, health care, litigation and real estate law types. For convenience, BGWP has office locations in Olympia and Seattle Washington and Bend, Oregon.</h2>
 						</header>
 					</section>
 				</article>

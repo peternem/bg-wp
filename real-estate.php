@@ -6,9 +6,9 @@ $navFlag = 'practice-type';
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Bean Gentry Wheeler & Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
+        <meta name="description" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
         <meta name="keywords" content="Washington Law, Washington Lawyers, Washington Attorneys, Northwest Law, Northwest Lawyers, Northwest attorneys, business law, property law, Olympia"/>
-        <meta name="author" content="Bean Gentry Wheeler & Peternell, PLLC"/>
+        <meta name="author" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC"/>
 
         <!-- Note there is no responsive meta tag here -->
 

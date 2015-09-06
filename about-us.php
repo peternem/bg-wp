@@ -17,7 +17,7 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 
         <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-        <title><?php echo $stringUrl; ?> - Bean Gentry Wheeler &amp; Peternell PLLC</title>
+        <title><?php echo $stringUrl; ?> - Bean, Gentry, Wheeler &amp; Peternell, PLLC</title>
 
         <!-- Bootstrap core CSS -->
 
@@ -53,7 +53,7 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
                         <img src="assets/img/bgwp_logo_new.gif" alt="Bean | Gentry | Wheeler | Peternell PLLC" class="bgwpLogo" title="Bean | Gentry | Wheeler | Peternell PLLC" />
                         <header>
                             <h1><?php echo $stringUrl; ?></h1>
-                            <h2>The law firm of Bean Gentry Wheeler and Peternell, PLLC and its attorneys have been serving the Pacific Northwest including Olympia and Seattle Washington and Bend, Oregon for over 40 years. </h2>
+                            <h2>The law firm of Bean, Gentry, Wheeler &amp; Peternell, PLLC and its attorneys have been serving the Pacific Northwest including Olympia and Seattle Washington and Bend, Oregon for over 40 years. </h2>
                         </header>
                     </section>
                 </article>

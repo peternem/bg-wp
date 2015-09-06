@@ -7,7 +7,7 @@ $navFlag = 'practice-type';
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <meta name="description" content="Bean Gentry Wheeler & Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
+        <meta name="description" content="Bean, Gentry, Wheeler &amp; Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
         <meta name="keywords" content="Washington Law, Washington Lawyers, Washington Attorneys, Northwest Law, Northwest Lawyers, Northwest attorneys, business law, property law, Olympia"/>
         <meta name="author" content="Bean Gentry Wheeler & Peternell, PLLC"/>
 
@@ -15,7 +15,7 @@ $navFlag = 'practice-type';
 
         <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-        <title>Bean Gentry Wheeler &amp; Peternell PLLC - Appellate, Trial And Legal Ethics Consulting</title>
+        <title>Bean, Gentry, Wheeler &amp; Peternell, PLLC - Appellate, Trial And Legal Ethics Consulting</title>
 
         <!-- Bootstrap core CSS -->
 

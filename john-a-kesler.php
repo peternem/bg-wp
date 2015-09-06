@@ -25,7 +25,7 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 
         <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-        <title>Bean Gentry Wheeler &amp; Peternell PLLC - <?php echo $stringUrl; ?> </title>
+        <title>Bean, Gentry, Wheeler &amp; Peternell, PLLC - <?php echo $stringUrl; ?> </title>
 
         <!-- Bootstrap core CSS -->
 

@@ -38,7 +38,8 @@ if (($_SERVER['PHP_AUTH_USER']== $username) && ($_SERVER['PHP_AUTH_PW']== $passw
 		   <p><select name="brandDirList">
 			  <option value="0">Select</option>
 			  <option value="brent-dille">Brent Dille</option>
-			  <option value="fred-gentry">Fred Gentry</option>
+			   <option value="fred-gentry">Fred Gentry</option>
+			  <option value="cheryl-l-duryea">Cheryl L Duryea</option>
 			  <option value="gerry-alexander">Gerry Alexander</option>
 			  <option value="hannah-steinweg-mcdonald">Hannah Steinweg McDonald</option>
 			  <option value="john-a-kesler">John A kesler</option>

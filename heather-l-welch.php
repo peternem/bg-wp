@@ -6,7 +6,7 @@ echo $url;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Bean Gentry Wheeler &amp; Peternell PLLC - Heather L. Welch</title>
+<title>Bean, Gentry, Wheeler &amp; Peternell, PLLC - Heather L. Welch</title>
 <meta name="description" content="Bean Gentry Wheeler & Peternell, PLLC - Advisors to Northwest businesses, professionals and property owners since 1968."/>
 <meta name="keywords" content="Washington Law, Washington Lawyers, Washington Attorneys, Northwest Law, Northwest Lawyers, Northwest attorneys, business law, property law, Olympia"/>
 <meta name="author" content="Bean Gentry Wheeler & Peternell, PLLC"/>
