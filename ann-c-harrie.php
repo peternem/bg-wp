@@ -57,7 +57,7 @@ $stringUrl = ucwords(str_replace("-", " ", $urlString));
                 ?>
             </div>
 
-            <div class="mid-panel profile cd">
+            <div class="mid-panel profile ach">
                 <img src="assets/img/bgwp_logo_new.gif" alt="Bean | Gentry | Wheeler | Peternell PLLC" class="bgwpLogo" title="Bean | Gentry | Wheeler | Peternell PLLC" />
                 <?php
 				include 'includes/sitewide-attorneys-subnav-menu.php';
@@ -65,18 +65,19 @@ $stringUrl = ucwords(str_replace("-", " ", $urlString));
                 <article>
                     <section>
                         <header>
-                            <h1><?php //echo $stringUrl; ?>Cheryl L. Duryea</h1>
+                            <h1><?php //echo $stringUrl; ?>Ann C. Harrie</h1>
                             <h2 class="attorneyAtLaw">Attorney at Law</h2>
                             <div class="phoneEmail">
-                                <a href="mailto:cduryea@bgwp.net">cduryea@bgwp.net</a>
+                            <?php 
+                            $email = "&#97;&#104;&#97;&#114;&#114;&#105;&#101;&#64;&#98;&#103;&#119;&#112;&#46;&#110;&#101;&#116;"
+                            ?>
+                                <a href="mailto:<?php echo $email; ?>">aharrie@bgwp.net</a>
                             </div>
                         </header>
                     </section>
                     <section>
-                        <h4 class="practiceType">Business Law & Finance, Municipal Law & Finance, Regulatory & Administrative Law</h4>
-                        <p>Cheryl has been practicing law in Olympia since 1978 and focuses her practice in the areas of business, state regulatory matters, securities and municipal law, including 
-                        bond work.  Cheryl works with businesses and local governments on regulatory and licensing problems and helps them sort through financing and management issues.  As a 
-                        former business owner and government regulator, Cheryl understands the importance of practical and cost effective solutions.</p>
+                        <h4 class="practiceType">Environmental Law, Land Use, Water Use, Shellfish Aquaculture, and Litigation.		</h4>
+                        <p>Ann focuses her practice in environmental and land use law, water use, and litigation.  Her education and professional background are in environmental science, particularly water quality for fish.  Prior to joining BGWP, Ann worked as a prosecutor and an environmental scientist.  She has experience working closely with state, local, federal and tribal agencies.  A Pacific Northwest Native, Ann enjoys spending time in and around the water </p>
 						<div class="moreInfoLink">
 							<!-- Button trigger modal -->
 							<div class="btn-group">
@@ -92,7 +93,7 @@ $stringUrl = ucwords(str_replace("-", " ", $urlString));
                 </article>
 
             </div>
-            <div id="rightPanel" class="right-panel cd"></div>
+            <div id="rightPanel" class="right-panel ach"></div>
         </div>
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -108,7 +109,7 @@ $stringUrl = ucwords(str_replace("-", " ", $urlString));
 						<!-- <h3>Articles:</h3> -->
 						<ul class="installDocs">
 							<?php
-							$dirName = "cheryl-l-duryea";
+							$dirName = "ann-c-harrie";
 							$dir = "./assets/docs/$dirName/article";
 							if (is_dir($dir)) {
 							    if ($dh = opendir($dir)) {
@@ -133,7 +134,7 @@ $stringUrl = ucwords(str_replace("-", " ", $urlString));
 						<h3>Resume:</h3>
 						<ul class="installDocs">
 							<?php
-							$dirName = "cheryl-l-duryea";
+							$dirName = "ann-c-harrie";
 							$dir = "./assets/docs/$dirName/resume";
 							if (is_dir($dir)) {
 							    if ($dh = opendir($dir)) {

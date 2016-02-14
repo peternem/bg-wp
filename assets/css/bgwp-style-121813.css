@@ -1,7 +1,7 @@
 @charset "utf-8";
-/* CSS Document **/
+/* CSS Document ***********************/
 /* --------------------------------------------------------------------
- START - CSS Reset xxccc
+ START - CSS Reset 
  -------------------------------------------------------------------- */
 html,
 body,
@@ -240,6 +240,12 @@ p {
   background-size: 371px 650px;
   height: 648px;
 }
+.mid-panel.ach {
+  background-image: url("../img/backgrounds/ann-c-harrie-mid.jpg");
+  background-position: -26px 0;
+  background-size: 371px 650px;
+  height: 648px;
+}
 .mid-panel.jr {
   background-image: url("../img/backgrounds/bground-people-jr-mid.jpg");
   background-size: 368px 650px;
@@ -384,7 +390,13 @@ p {
   background-size: 514px 650px;
   height: 648px;
 }
-cheryl-duryea_slice_02.jpg .right-panel.jr {
+.right-panel.ach {
+  background-image: url("../img/backgrounds/ann-c-harrie-rh.jpg");
+  background-position: 0px 0px;
+  background-size: 514px 650px;
+  height: 648px;
+}
+.right-panel.jr {
   background-image: url("../img/backgrounds/bground-people-jr-right.jpg");
   background-size: 514px 650px;
   height: 648px;
@@ -692,7 +704,7 @@ cheryl-duryea_slice_02.jpg .right-panel.jr {
 .lawyer-menu .btn-default.active,
 .lawyer-menu .open .dropdown-toggle.btn-default {
   background-color: #B2B2B2;
-  border-color: #b2b2b2;
+  border-color: #B2B2B2;
 }
 .lawyer-menu .navbar-default .navbar-brand:hover,
 .lawyer-menu .navbar-default .navbar-brand:focus {

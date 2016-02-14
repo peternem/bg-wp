@@ -37,6 +37,7 @@ if (($_SERVER['PHP_AUTH_USER']== $username) && ($_SERVER['PHP_AUTH_PW']== $passw
 		   <p>Step 1: Select a Brand Directory to upload to.</p>
 		   <p><select name="brandDirList">
 			  <option value="0">Select</option>
+			  <option value="ann-c-harrie">Ann C Harrie</option>
 			  <option value="brent-dille">Brent Dille</option>
 			   <option value="fred-gentry">Fred Gentry</option>
 			  <option value="cheryl-l-duryea">Cheryl L Duryea</option>
