@@ -76,8 +76,9 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
 						    Select a Questionnaire<span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu" role="menu">
-						    <li><a href="/assets/docs/estate-planning/EP Questionnaire HW revised 3-19-14.pdf" target="_blank">Husband and Wife</a></li>
-						    <li><a href="/assets/docs/estate-planning/EP Questionnaire Partners.pdf" target="_blank">Partners</a></li>
+						    <li><a href="/assets/docs/estate-planning/EP Questionnaire HW-revised 2-18-16.pdf" target="_blank">Husband and Wife</a></li>
+						    <li><a href="/assets/docs/estate-planning/EP Questionnaire Partners-revised 2-18-16.pdf" target="_blank">Partners</a></li>
+						    <li><a href="/assets/docs/estate-planning/EP Questionnaire Spouses-revised 2-18-16.pdf" target="_blank">Spouses</a></li>
 						    <li><a href="/assets/docs/estate-planning/EP Questionnaire Single Revised 8-4-14.pdf" target="_blank">Single Person</a></li>
 						  </ul>
 						</div>

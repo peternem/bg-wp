@@ -29,7 +29,6 @@
 			<ul class="dropdown-menu">
 				<li><a href="ann-c-harrie.php" title="Ann C. Harris">Ann C. Harrie</a></li>
 				<li><a href="john-a-kesler.php" title="John A Kesler III">John A Kesler III</a></li>
-				<li><a href="stephen-manning.php" title="Stephen Manning">Stephen Manning</a></li>
 				<li><a href="Hannah-Steinweg-McDonald.php" title="Hannah Steinweg McDonald">Hannah Steinweg McDonald</a></li>
 			</ul>
 

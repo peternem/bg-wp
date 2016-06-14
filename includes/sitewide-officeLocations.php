@@ -15,7 +15,7 @@
 		BEND
 	</div>
 	<div class="officeLoc">
-		705 NW Charbonneau Street<br/>Suite 205<br/>Bend, OR 97701<br/>Tel (541) 593-0322
+		750 NW Charbonneau Street<br/>Suite 205<br/>Bend, OR 97701<br/>Tel (541) 593-0322
 	</div>
 </div>
 <div id="socialLinks">

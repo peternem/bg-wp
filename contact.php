@@ -125,7 +125,7 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
                             </ul>
                             <ul>
                                 <li><span class="office">Bend Offices:</span></li>
-                                <li>705 NW Charbonneau Street, Suite 205</li>
+                                <li>750 NW Charbonneau Street, Suite 205</li>
                                 <li>Bend, OR 97701</li>
                                 <li>Tel: 541-593-0322</li>
                                 <li>Directions: <a href="https://www.google.com/maps/place/750+NW+Charbonneau+St,+Bend,+OR+97701/@44.057778,-121.358102,18z/" target="_blank">Map View</a></li>

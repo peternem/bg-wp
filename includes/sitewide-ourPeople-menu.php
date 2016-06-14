@@ -4,7 +4,6 @@
       <li><a href="mark-l-wheeler.php" title="Mark L. Wheeler, Jr.">Mark L. Wheeler, Jr.</a></li>
       <li><a href="mark-peternell.php" title="Mark A. Peternell">Mark A. Peternell</a></li>
       <li><a href="brent-f-dille.php" title="Brent F. Dille">Brent F. Dille</a></li>
-      <li><a href="stephen-manning.php" title="Stephen Manning">Stephen Manning</a></li>
     </ul>
     <ul class="lawyerList2">
       <li><a href="james-randall.php" title="James Randall">James Randall</a></li>
