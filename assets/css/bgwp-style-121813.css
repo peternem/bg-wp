@@ -266,6 +266,11 @@ p {
   background-size: 347px 650px;
   height: 648px;
 }
+.mid-panel.aw {
+  background-image: url("../img/backgrounds/bground-people-aw-mid.jpg");
+  background-size: 347px 650px;
+  height: 648px;
+}
 .mid-panel.hw {
   background-image: url("../img/backgrounds/bground-people-hw-mid.jpg");
   background-size: 347px 650px;
@@ -419,6 +424,11 @@ p {
 }
 .right-panel.mjw {
   background-image: url("../img/backgrounds/bground-people-mjw-right.jpg");
+  background-size: 507px 650px;
+  height: 648px;
+}
+.right-panel.aw {
+  background-image: url("../img/backgrounds/bground-people-aw-right.jpg");
   background-size: 507px 650px;
   height: 648px;
 }

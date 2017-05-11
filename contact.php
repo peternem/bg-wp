@@ -105,7 +105,7 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
             <div class="right-panel contact">
             	<div class="officeInfo">
                             <ul>
-                                <li><span class="office">Email:</span><a href="mailto:bgwpinfo@bgwp.net">bgwpinfo@bgwp.net</a></li>
+                                <li><span class="office">Email:</span><a href="mailto:info@bgwp.net">info@bgwp.net</a></li>
                             </ul>
                             <ul>
                                 <li><span class="office">Olympia Offices:</span></li>
@@ -114,14 +114,6 @@ $stringUrl = ucwords(str_replace("-", " ",$urlString));
                                 <li>Tel: 360-357-2852</li>
                                 <li>Fax: 360-786-6943</li>
                                 <li>Directions: <a href="https://www.google.com/maps/dir/''/910+Lakeridge+Way+SW,+Olympia,+WA+98502/" target="_blank">Map View</a></li>
-                            </ul>
-                            <ul>
-                                <li><span class="office">Seattle Offices:</span></li>
-                                <li>2211 Elliott Avenue, Suite 200 </li>
-                                <li>Seattle, Washington  98121</li>
-                                <li>Tel: 206-455-2887</li>
-                                <li>Parking: <a href="/pdf/Parking Information and Rates.pdf" target="_blank">Information and Rates</a></li>
-                                <li>Directions: <a href="pdf/BGWP WTC Directions.pdf" target="_blank">Download</a></li>
                             </ul>
                             <ul>
                                 <li><span class="office">Bend Offices:</span></li>

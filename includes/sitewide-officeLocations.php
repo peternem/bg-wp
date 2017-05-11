@@ -6,12 +6,6 @@
 		910 Lakeridge Way SW<br/>Olympia, WA 98502<br/>Tel (360) 357-2852<br/>Fax (360) 786-6943
 	</div>
 	<div class="officecity">
-		SEATTLE
-	</div>
-	<div class="officeLoc">
-		2211 Elliott Avenue<br/>Suite 200<br/>Seattle, WA  98121<br/>Tel (206) 455-2887
-	</div>
-	<div class="officecity">
 		BEND
 	</div>
 	<div class="officeLoc">
